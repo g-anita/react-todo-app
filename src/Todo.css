@@ -1,0 +1,43 @@
+.todo-container{
+  padding: 0;
+  padding-right: 14px;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  overflow: auto;
+  background-color: #F4F6F6;
+  border: none;
+  align-items: center;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todo-item {
+  margin: 0;
+  padding: 0;
+	width: 100%;
+	height: 40px;
+	color: #85929E;
+}
+
+.todo-item:hover button{
+	width: 40px;
+	opacity: 1.0;
+}
+
+.delete-btn{
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+  background-color: #D35400;
+  border: none;
+	color: white;
+	transition: 0.2s linear;
+	opacity: 0;
+}
