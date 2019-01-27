@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TodoForm from './TodoForm';
 import Todos from './Todos';
-import './App.css';
+import '../stylesheets/style.css';
 
 class App extends Component {
   constructor(props){
